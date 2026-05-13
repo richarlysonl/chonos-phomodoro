@@ -4,7 +4,9 @@ import { Heading } from "./components/Heading";
 export function App() {
   return (
     <div>
-      <Heading />
+      <Heading attr="string" attr2={123}>
+        Ola mundo!
+      </Heading>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
         perspiciatis et repellat commodi odio, quibusdam laborum quis ipsum quo

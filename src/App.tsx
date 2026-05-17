@@ -1,11 +1,15 @@
 import "./styles/theme.css";
 import "./styles/global.css";
 import { Heading } from "./components/Heading";
+import { TimerIcon } from "lucide-react";
 export function App() {
   return (
     <div>
-      <Heading attr="string" attr2={123}>
+      <Heading>
         Ola mundo!
+        <button>
+          <TimerIcon />
+        </button>
       </Heading>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem

@@ -1,16 +1,17 @@
 import "./styles/theme.css";
 import "./styles/global.css";
+import { Heading } from "./components/Heading";
+import { Logo } from "./components/Logo";
+import { Container } from "./components/Container";
 export function App() {
   return (
-    <div className="container">
-      <div className="content">
-        <section>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam
-          iusto animi nisi a dolore sint quas dicta unde blanditiis, veritatis
-          quia cumque reprehenderit cum quibusdam consequatur autem saepe
-          quaerat. Molestiae.
-        </section>
-      </div>
-    </div>
+    <>
+      <Container>
+        <Heading>titulo</Heading>
+      </Container>
+      <Container>
+        <Logo />
+      </Container>
+    </>
   );
 }
